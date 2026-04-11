@@ -3,6 +3,7 @@ name: Terraform Pipeline
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   terraform:
